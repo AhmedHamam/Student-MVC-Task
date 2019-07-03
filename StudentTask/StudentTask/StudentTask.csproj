@@ -51,6 +51,7 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Security" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
@@ -242,8 +243,14 @@
     </Compile>
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\courses.cs" />
+    <Compile Include="Models\course_questions.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\Student.cs" />
+    <Compile Include="Models\StudentContext.cs" />
+    <Compile Include="Models\sysdiagrams.cs" />
+    <Compile Include="Models\users.cs" />
+    <Compile Include="Models\user_course.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Providers\ApplicationOAuthProvider.cs" />
     <Compile Include="Results\ChallengeResult.cs" />
